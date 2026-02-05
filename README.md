@@ -8,7 +8,8 @@
 </p>
 
 [Download](https://github.com/mapap9/SOC-Agentic-AI/releases/download/release/Agent.zip)
-
+<br />
+[Documentation](https://github.com/mapap9/SOC-Agentic-AI/blob/main/Threat%20Hunting%20and%20Remediation%20Using%20Agentic%20AI.pdf)
 ---
 
 ## Overview
