@@ -1,5 +1,11 @@
 # Threat Hunting and Remediation Using Agentic AI  
-**Python · Microsoft Sentinel · Microsoft Defender for Endpoint · OpenAI**
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-000?style=for-the-badge&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Microsoft Sentinel-000?style=for-the-badge&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Microsoft Azure-000?style=for-the-badge&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Microsoft Defender for Endpoint-000?style=for-the-badge&logoColor=white"/>
+  <img src="https://img.shields.io/badge/OpenAI-000?style=for-the-badge&logoColor=white"/>
+</p>
 
 ---
 
