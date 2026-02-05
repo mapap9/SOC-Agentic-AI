@@ -5,6 +5,8 @@
 
 ## Overview
 
+![AI-Assisted SOC Workflow](images/61.png)
+
 This project demonstrates the design and implementation of an **AI-assisted Security Operations Center (SOC) workflow** that supports threat hunting, investigation, and automated response using **Microsoft Sentinel**, **Microsoft Defender for Endpoint (MDE)**, and **OpenAI**.
 
 The AI agent translates **natural language security concerns** into structured **KQL queries**, analyzes enterprise telemetry, and conditionally executes containment actions—while enforcing strict **cost controls** and **safety guardrails**.
@@ -28,13 +30,19 @@ The result is a **scalable, low-cost automation approach** that enhances analyst
 ## Architecture Overview
 
 **High-level workflow:**
-1. SOC analyst submits a natural language investigation request  
-2. AI agent interprets intent and generates KQL  
-3. Azure Sentinel executes log queries  
-4. Results are analyzed and classified  
-5. Automated response actions are conditionally triggered  
+1. SOC analyst submits a natural language investigation request
+![Investigation Prompt](images/39.png) 
+2. AI agent interprets intent and generates KQL
+![KQL Generation](images/41.png)  
+3. Azure Sentinel executes log queries
+![Queries Codeblock](images/24.png)  
+4. Results are analyzed and classified
+![Agent Working](images/43.png)  
+5. Automated response actions are conditionally triggered
+![VM Isolation](images/55.png)
+![Pending Action](images/57.png)  
 6. Findings and actions are logged for review  
-
+![Findings](images/45.png) 
 ---
 
 ## Environment Setup
@@ -197,7 +205,8 @@ This project demonstrates how AI can be responsibly integrated into SOC workflow
 
 - Faster investigations  
 - Reduced manual effort  
-- Predictable, minimal cost  
+- Predictable, minimal cost
+![Cost](images/62.png) 
 - Controlled and auditable automation  
 
 From initial detection to automated containment, this agent showcases a **practical, production-minded approach** to modern threat hunting and remediation.
